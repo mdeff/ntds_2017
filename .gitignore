@@ -1,0 +1,19 @@
+# Latex
+practical_info/ntds_labs.pdf
+*.aux
+*.fls
+*.toc
+*.out
+*.lot
+*.log
+*.lof
+*.blg
+*.bbl
+*.aux
+*.dvi
+*.synctex.gz
+*.fdb_latexmk
+*.bcf
+*.nav
+*.run.xml
+*.snm
