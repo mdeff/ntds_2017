@@ -26,6 +26,34 @@ As such, you get the following material:
 1. Machine learning: demo, assignment, solution
 
 As a Data Science course, the above activities are realized on real networks,
-e.g. a social network from Twitter, that students have to collect and clean.
+e.g. a social network from Twitter, that students have to collect and clean
+themselves.
 
 [practical_info]: https://github.com/mdeff/ntds_2017/raw/outputs/practical_info/ntds_labs.pdf
+
+## Installation
+
+For these labs we'll need [git], [Python], and packages from the [Python
+scientific stack][scipy]. If you don't know how to install those on your
+platform, we recommend to install [Anaconda], a distribution of the [conda]
+package and environment manager. Please follow the below instructions to
+install it.
+
+1. Open <https://www.anaconda.com/download> and download the Python 3.x
+   installer for Windows, macOS, or Linux.
+1. Install with default options.
+1. Open the Anaconda Prompt (e.g. from the Windows Start menu).
+1. Execute `conda config --add channels conda-forge` to add the [conda-forge]
+   channel. It provides many additional packages to conda.
+1. Install git with `conda install git`.
+1. Download this repository by executing
+   `git clone https://github.com/mdeff/ntds_2017`.
+1. Open the Anaconda Navigator (e.g. from the Windows Start menu).
+1. From there you can start e.g. Jupyter or Spyder.
+
+[git]: https://git-scm.com
+[python]: https://www.python.org
+[scipy]: https://www.scipy.org
+[anaconda]: https://anaconda.org
+[conda]: https://conda.io
+[conda-forge]: https://conda-forge.org
