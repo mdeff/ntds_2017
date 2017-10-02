@@ -1,3 +1,9 @@
+*~
+.DS_Store
+
+__pycache__/
+.ipynb_checkpoints/
+
 # Latex
 practical_info/ntds_labs.pdf
 *.aux
