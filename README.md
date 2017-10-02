@@ -17,7 +17,7 @@ following topics:
 
 As such, you get the following material:
 1. [Practical informations][practical_info]
-1. [Installation instructions](install.md)
+1. [Installation instructions](#installation)
 1. Introduction to Python for Data Science
 1. Network properties: demo, assignment, solution
 1. Network models: demo, assignment, solution
