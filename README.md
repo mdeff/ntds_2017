@@ -15,11 +15,11 @@ following topics:
 [moodle]: http://moodle.epfl.ch/course/view.php?id=15299
 [2016 edition]: https://github.com/mdeff/ntds_2016
 
-As such, you get the following material:
+Below is the material you'll find in that repository:
 1. [Practical informations][practical_info]
 1. [Installation instructions](#installation)
-1. Introduction to Python for Data Science
-1. Network properties: demo, assignment, solution
+1. [Introduction][d01]: conda & Anaconda, Python, Jupyter, git, scientific Python
+1. Network properties: [twitter demo][d02], numpy & matplotlib demo, [assignment][a01], solution
 1. Network models: demo, assignment, solution
 1. Spectral graph theory: demo, assignment, solution
 1. Graph signal processing: demo, assignment, solution
@@ -30,6 +30,11 @@ e.g. a social network from Twitter, that students have to collect and clean
 themselves.
 
 [practical_info]: https://github.com/mdeff/ntds_2017/raw/outputs/practical_info/ntds_labs.pdf
+
+[d01]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/01_introduction.ipynb
+[d02]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/02_data_acquisition_twitter.ipynb
+
+[a01]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/assignments/01_network_properties.ipynb
 
 ## Installation
 
