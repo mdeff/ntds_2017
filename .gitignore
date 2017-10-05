@@ -23,3 +23,5 @@ practical_info/ntds_labs.pdf
 *.nav
 *.run.xml
 *.snm
+
+credentials.ini
