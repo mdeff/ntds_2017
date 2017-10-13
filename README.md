@@ -19,7 +19,7 @@ Below is the material you'll find in that repository:
 1. [Practical informations][practical_info]
 1. [Installation instructions](#installation)
 1. [Introduction][d01]: conda & Anaconda, Python, Jupyter, git, scientific Python
-1. Network properties: [twitter demo][d02], numpy & matplotlib demo, [assignment][a01], solution
+1. Network properties: [twitter demo][d02], [numpy demo][d03], [assignment][a01], solution
 1. Network models: demo, assignment, solution
 1. Spectral graph theory: demo, assignment, solution
 1. Graph signal processing: demo, assignment, solution
@@ -33,6 +33,7 @@ themselves.
 
 [d01]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/01_introduction.ipynb
 [d02]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/02_data_acquisition_twitter.ipynb
+[d03]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/03_numpy.ipynb
 
 [a01]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/assignments/01_network_properties.ipynb
 
