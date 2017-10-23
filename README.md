@@ -55,8 +55,9 @@ install it.
 1. Install git with `conda install git`.
 1. Download this repository by executing
    `git clone https://github.com/mdeff/ntds_2017`.
-1. Open the Anaconda Navigator (e.g. from the Windows Start menu).
-1. From there you can start e.g. Jupyter or Spyder.
+1. Start Jupyter with `jupyter notebook`. The command should open a new tab in
+   your web browser.
+1. Edit and run the notebooks from your browser.
 
 [git]: https://git-scm.com
 [python]: https://www.python.org
