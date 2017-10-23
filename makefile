@@ -1,4 +1,4 @@
-DIRS = demos assignments
+DIRS = $(wildcard */)
 CLEANDIRS = $(DIRS:%=clean-%)
 
 run: $(DIRS)
