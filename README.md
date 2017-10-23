@@ -55,6 +55,16 @@ install it.
 1. Install git with `conda install git`.
 1. Download this repository by executing
    `git clone https://github.com/mdeff/ntds_2017`.
+1. Create an environment with the packages required for the course with
+   `conda env create -f environment.yml`.
+
+Every time you want to work, do the following:
+
+1. Open a terminal.
+   * Windows: open Anaconda Prompt from the Start menu.
+   * macOS: open the standard Terminal application.
+   * Linux: open your usual shell.
+1. Activate the environment with `conda activate ntds_2017`.
 1. Start Jupyter with `jupyter notebook`. The command should open a new tab in
    your web browser.
 1. Edit and run the notebooks from your browser.
