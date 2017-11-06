@@ -25,3 +25,4 @@ practical_info/ntds_labs.pdf
 *.snm
 
 credentials.ini
+data/
