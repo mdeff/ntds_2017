@@ -21,7 +21,7 @@ Below is the material you'll find in that repository:
 1. [Introduction][d01]: conda & Anaconda, Python, Jupyter, git, scientific Python
 1. Network properties: [twitter demo][d02], [numpy demo][d03], [assignment][a01], solution
 1. Network models: [networkx demo][d04], [matplotlib demo][d05], [assignment][a02], solution
-1. Spectral graph theory: demo, assignment, solution
+1. Spectral graph theory: [web API and pandas demo][d06], assignment, solution
 1. Graph signal processing: demo, assignment, solution
 1. Machine learning: demo, assignment, solution
 
@@ -36,6 +36,7 @@ themselves.
 [d03]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/03_numpy.ipynb
 [d04]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/04_networkx.ipynb
 [d05]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/05_matplotlib.ipynb
+[d06]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/06_webapi_pandas.ipynb
 
 [a01]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/assignments/01_network_properties.ipynb
 [a02]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/assignments/02_network_models.ipynb
