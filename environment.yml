@@ -13,3 +13,5 @@ dependencies:
 - openssl=1.0.2l=0
 
 - networkx=1.11
+
+- ffmpeg
