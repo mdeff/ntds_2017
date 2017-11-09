@@ -6,6 +6,7 @@ __pycache__/
 
 # Latex
 practical_info/ntds_labs.pdf
+projects/ntds_projects.pdf
 *.aux
 *.fls
 *.toc
