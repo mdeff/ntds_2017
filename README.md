@@ -23,6 +23,7 @@ Below is the material you'll find in that repository:
    [solution][a01s1], [student solution][a01s2], [feedback][a01fb]
 1. Network models: [networkx demo][d04], [matplotlib demo][d05], [assignment][a02], solution
 1. Spectral graph theory: [web API and pandas demo][d06], [assignment][a03], solution
+1. [Data exploration and visualization demo][d07]
 1. Graph signal processing: demo, assignment, solution
 1. Machine learning: demo, assignment, solution
 
@@ -39,6 +40,7 @@ themselves.
 [d04]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/04_networkx.ipynb
 [d05]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/05_matplotlib.ipynb
 [d06]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/06_webapi_pandas.ipynb
+[d07]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/07_data_exploration_and_visualisation.ipynb
 
 [a01]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/assignments/01_network_properties.ipynb
 [a01s1]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/assignments/01_solution_ersi.ipynb
