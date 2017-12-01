@@ -3,15 +3,18 @@ channels:
 - conda-forge
 - defaults
 dependencies:
-- git=2.14.2=0
-- libiconv=1.14=4
-- zlib=1.2.8=3
-- curl=7.54.1=0
-- expat=2.1.0=0
-- krb5=1.13.2=0
-- libssh2=1.8.0=0
-- openssl=1.0.2l=0
-
+- git
+- python
+- numpy
+- scipy
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
 - networkx=1.11
-
+- tweepy=3.5.0
+- requests
+- tqdm
+- statsmodels
+- librosa=0.5.1
 - ffmpeg
