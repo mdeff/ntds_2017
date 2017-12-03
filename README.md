@@ -46,32 +46,32 @@ platform, we recommend to install [Anaconda], a distribution of the [conda]
 package and environment manager. Please follow the below instructions to
 install it.
 
-1. Open <https://www.anaconda.com/download> and download the Python 3.x
-   installer for Windows, macOS, or Linux.
-1. Install with default options.
-1. Open the Anaconda Prompt (e.g. from the Windows Start menu).
-1. Execute `conda config --add channels conda-forge` to add the [conda-forge]
-   channel. It provides many additional packages to conda.
+1. Download the Python 3.x installer for Windows, macOS, or Linux from
+   <https://conda.io/miniconda.html> and install with default settings. Skip
+   this step if you have conda already installed (from [Miniconda] or
+   [Anaconda]). Linux users may prefer to use their package manager.
+   * Windows: Double-click on the `.exe` file.
+   * macOS: Run `bash Miniconda3-latest-MacOSX-x86_64.sh` in your terminal.
+   * Linux: Run `bash Miniconda3-latest-Linux-x86_64.sh` in your terminal.
+1. Open a terminal. Windows: open the Anaconda Prompt from the Start menu.
 1. Install git with `conda install git`.
-1. Download this repository by executing
+1. Download this repository by running
    `git clone https://github.com/mdeff/ntds_2017`.
 1. Create an environment with the packages required for the course with
-   `conda env create -f environment.yml`.
+   `conda env create -f ntds_2017/environment.yml`.
 
 Every time you want to work, do the following:
 
-1. Open a terminal.
-   * Windows: open Anaconda Prompt from the Start menu.
-   * macOS: open the standard Terminal application.
-   * Linux: open your usual shell.
+1. Open a terminal. Windows: open the Anaconda Prompt from the Start menu.
 1. Activate the environment with `conda activate ntds_2017`.
-1. Start Jupyter with `jupyter notebook`. The command should open a new tab in
-   your web browser.
+1. Start Jupyter with `jupyter notebook` or `jupyter lab`. The command should
+   open a new tab in your web browser.
 1. Edit and run the notebooks from your browser.
 
 [git]: https://git-scm.com
 [python]: https://www.python.org
 [scipy]: https://www.scipy.org
 [anaconda]: https://anaconda.org
+[miniconda]: https://conda.io/miniconda.html
 [conda]: https://conda.io
 [conda-forge]: https://conda-forge.org
