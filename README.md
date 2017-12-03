@@ -1,8 +1,10 @@
 # A Network Tour of Data Science, edition 2017
 
-[![Binder](https://mybinder.org/badge.svg)][binder]
+[![Binder](https://mybinder.org/badge.svg)][binder_lab]
+&nbsp; (Jupyter [lab][binder_lab] or [notebook][binder_notebook])
 
-[binder]: https://mybinder.org/v2/gh/mdeff/ntds_2017/master?filepath=lab
+[binder_lab]: https://mybinder.org/v2/gh/mdeff/ntds_2017/master?urlpath=lab
+[binder_notebook]: https://mybinder.org/v2/gh/mdeff/ntds_2017/master?urlpath=tree
 
 This repository contains the material for the labs associated with the EPFL
 master course [EE-558 A Network Tour of Data Science][epfl] ([moodle]), taught
@@ -61,8 +63,8 @@ work.
 
 ## Usage
 
-Click the [binder badge][binder] to play with the notebooks from your browser
-without installing anything.
+Click the [binder badge][binder_lab] to play with the notebooks from your
+browser without installing anything.
 
 For a local installation, you will need [git], [Python], and packages from the
 [Python scientific stack][scipy]. If you don't know how to install those on
