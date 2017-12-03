@@ -1,5 +1,9 @@
 # A Network Tour of Data Science, edition 2017
 
+[![Binder](https://mybinder.org/badge.svg)][binder]
+
+[binder]: https://mybinder.org/v2/gh/mdeff/ntds_2017/master?filepath=lab
+
 This repository contains the material for the labs associated with the EPFL
 master course [EE-558 A Network Tour of Data Science][epfl] ([moodle]), taught
 in autumn 2017. Compared to the [2016 edition], the course has been refocused
@@ -38,13 +42,16 @@ themselves.
 
 [a01]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/assignments/01_network_properties.ipynb
 
-## Installation
+## Usage
 
-For these labs we'll need [git], [Python], and packages from the [Python
-scientific stack][scipy]. If you don't know how to install those on your
-platform, we recommend to install [Anaconda], a distribution of the [conda]
-package and environment manager. Please follow the below instructions to
-install it.
+Click the [binder badge][binder] to play with the notebooks from your browser
+without installing anything.
+
+For a local installation, you will need [git], [Python], and packages from the
+[Python scientific stack][scipy]. If you don't know how to install those on
+your platform, we recommend to install [Miniconda], a distribution of the
+[conda] package and environment manager. Please follow the below instructions
+to install it and create an environment for the course.
 
 1. Download the Python 3.x installer for Windows, macOS, or Linux from
    <https://conda.io/miniconda.html> and install with default settings. Skip
