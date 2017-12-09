@@ -31,7 +31,6 @@ Below is the material you'll find in that repository:
 1. Spectral graph theory: [web API and pandas demo][d06], [assignment][a03], solution
 1. [Data exploration and visualization demo][d07]
 1. Graph signal processing: [demo][d08], [assignment][a04], solution
-1. Machine learning: demo, assignment, solution
 
 As a Data Science course, the above activities are realized on real networks,
 e.g. a social network from Twitter, that students have to collect and clean
