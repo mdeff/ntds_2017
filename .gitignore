@@ -5,8 +5,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Latex
-practical_info/ntds_labs.pdf
-projects/ntds_projects.pdf
+slides/*.pdf
 *.aux
 *.fls
 *.toc

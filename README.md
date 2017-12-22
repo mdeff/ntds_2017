@@ -36,8 +36,8 @@ As a Data Science course, the above activities are realized on real networks,
 e.g. a social network from Twitter, that students have to collect and clean
 themselves.
 
-[practical_info]: https://github.com/mdeff/ntds_2017/raw/outputs/practical_info/ntds_labs.pdf
-[projects]: https://github.com/mdeff/ntds_2017/raw/outputs/projects/ntds_projects.pdf
+[practical_info]: https://github.com/mdeff/ntds_2017/raw/outputs/slides/ntds_labs.pdf
+[projects]: https://github.com/mdeff/ntds_2017/raw/outputs/slides/ntds_projects.pdf
 
 [d01]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/01_introduction.ipynb
 [d02]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/02_data_acquisition_twitter.ipynb
