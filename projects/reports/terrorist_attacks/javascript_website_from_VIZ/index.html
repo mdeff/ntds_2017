@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Terrorists attacks visualization</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat:200,400,600|Open+Sans:100,200,400,600|Francois+One" rel="stylesheet">
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+</head>
+
+
+<body>
+
+<style type="text/css">
+
+    html {
+        color: rgb(90, 90, 90);
+        background-color:rgb(240,240,240);
+        font-family: 'Montserrat', SansSerif;
+    }
+
+    header{
+        position:fixed;
+        left:0%;
+        right:0%;
+        top:0%;
+        height:100px;
+        background-color:white;
+        box-shadow: 0px 0px 5px;
+    }
+
+    aside {
+        position:fixed;
+        left:0px;
+        width:300px;
+        top:0px;
+        height:100%;
+        z-index: 100;
+        background-color: rgba(236, 236, 236, 0.9);
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+
+    }
+
+    .contentWrapper {
+        position:fixed;
+        left:0%;
+        right:0%;
+        top:0%;
+        bottom:0%;
+        z-index:10;
+    }
+
+    .contentWrapper #chartdiv{
+        width:100%;
+        height:100%;
+        z-index:11;
+    }
+
+
+
+    h2 {
+        background-color:#bd5a5f;
+        color:white;
+        font-size: 0.7em;
+        padding-top:7px;
+        padding-bottom:7px;
+        margin-bottom:20px;
+        font-family: 'Open sans', SansSerif;
+        text-transform: uppercase;
+        text-align: right;
+        font-weight: bolder;
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+
+    h3 {
+        color: #bd5a5f;
+        font-family: 'Open Sans', SansSerif;
+        font-weight: lighter;
+        font-size: 0.7em;
+        margin-left:10px;
+    }
+
+    h1{
+        text-align: center;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    .brand {
+        font-family: Montserrat;
+        border:1px solid #bd5a5f;
+        color:#9e3e3e;
+        font-size: 0.55em;
+        padding-left:5px;
+        padding-right:5px;
+    }
+
+    .airlines {
+        width:100%;
+        font-size: 0.7em;
+        font-family: "Open Sans";
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+    .airlines td{
+        height:25px;
+        padding-left:10px;
+    }
+
+    .airlines tr td:first-child{
+        width: 75%;
+        text-align: left;
+    }
+
+
+    .menuDesc {
+        text-align: justify;
+        font-family: "Open Sans";
+        font-weight: lighter;
+        font-size: 0.7em;
+        padding:10px;
+        color:rgb(120,120,120);
+    }
+
+    .imgTable td{
+        width:30%;
+    }
+    .imgTable img {
+        border-radius: 50%;
+        width:75%;
+        filter: grayscale(100%);
+    }
+    .imgTable img:hover {
+        filter: grayscale(0%);
+    }
+
+    #crashYear {
+        color:inherit;
+        font-family: "Open Sans";
+        text-transform: uppercase;
+        margin-left: 10px;
+        font-size: 0.8em;
+    }
+
+    #amount {
+        background-color:transparent;
+        border:none;
+        color:inherit;
+        font-family: "Open Sans";
+        text-transform: uppercase;
+        font-size: 0.80em;
+    }
+
+    #slider-range {
+        margin-left:20px;
+        margin-right:20px;
+    }
+
+
+    .amcharts-zoom-control {
+        position:fixed;
+        right:0px;
+        bottom:0px;
+    }
+
+    .amcharts-chart-div div desc {
+        visibility: hidden;
+    }
+
+    .amcharts-chart-div a {
+        visibility: hidden;
+    }
+
+
+    .ui-widget.ui-widget-content {
+        border:none;
+    }
+
+    #slider-range {
+        background-color:#e9e9e9;
+    }
+
+    .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+        background:#bd595e;
+        outline: none;
+        border:none;
+        margin-top:2px;
+    }
+
+
+    .yearRangeTable {
+        color:#bd595e;
+        display:block;
+    }
+
+    .yearRangeTable tbody {
+        display:block;
+    }
+    .yearRangeTable tr {
+        display:block;
+    }
+    .yearRangeTable td {
+        width:150px;
+    }
+    .yearRangeTable td:nth-child(1){
+        text-align: left;
+    }
+
+    .yearRangeTable td:nth-child(2){
+        text-align: right;
+    }
+
+
+    .axis path{
+        stroke: transparent;
+    }
+
+    .axis text{
+        stroke:#bd5a5f;
+    }
+
+
+
+    h1 {
+        font-size: 1.1em;
+        font-family: 'Montserrat', SansSerif;
+        text-align: left;
+        line-height: 1.1em;
+        color: rgb(80, 80, 80);
+        position:fixed;
+        top:20px;
+        left:370px;
+        z-index: 15;
+        text-transform: uppercase;
+        font-weight: bolder;
+        padding-left:5px;
+        padding-right:5px;
+
+    }
+
+</style>
+
+<!-- Resources -->
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+
+<script src="https://www.amcharts.com/lib/3/themes/none.js"></script>
+<script type="text/javascript" src="./map_2.0.js"></script>
+<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+<!-- Chart code -->
+<script>
+
+    var mapBackgroundColor = "rgb(190,190,190)";
+    var mapOutlineColor = "rgb(255,255,255)";
+
+    var config = {
+        "type": "map",
+        "theme": "light",
+        "centerMap": "true",
+
+        "dataProvider": {
+            "map": "worldLow",
+            "zoomLevel": 1.25,
+            "zoomLongitude": 0,
+            "zoomLatitude": 0,
+
+            "getAreasFromMap": false,
+            "lines": [ ],
+            "images": [ ]
+        },
+
+        "areasSettings": {
+            "unlistedAreasColor": mapBackgroundColor,
+            "unlistedAreasAlpha":0.5,
+            "unlistedAreasOutlineColor": mapOutlineColor,
+            "unlistedAreasOutlineAlpha":0.1
+        },
+
+        "imagesSettings": {
+            //"color": "#585869",
+            "rollOverColor": "#000000",
+            "selectedColor": "#000000",
+            "pauseDuration": 0.5,
+            "animationDuration": 1,
+            "adjustAnimationSpeed": false
+        },
+
+        "linesSettings": {
+            "color": "#000000",
+            "alpha": 0.4,
+            "arrow": "end",
+            "arrowSize":3,
+        },
+
+        "export": {
+            "enabled": true
+        },
+        "balloon": {
+            "drop": true
+        },
+        "handDrawn":false,
+        "centerMap":true,
+        "backgroundZoomsToTop": true,
+        "linesAboveImages": true,
+    };
+    map = init_map(config);
+    var targetSVG = "M9,0C4.029,0,0,4.029,0,9s4.029,9,9,9s9-4.029,9-9S13.971,0,9,0z M9,15.93 c-3.83,0-6.93-3.1-6.93-6.93S5.17,2.07,9,2.07s6.93,3.1,6.93,6.93S12.83,15.93,9,15.93 M12.5,9c0,1.933-1.567,3.5-3.5,3.5S5.5,10.933,5.5,9S7.067,5.5,9,5.5 S12.5,7.067,12.5,9z";
+    var planeSVG = "m2,106h28l24,30h72l-44,-133h35l80,132h98c21,0 21,34 0,34l-98,0 -80,134h-35l43,-133h-71l-24,30h-28l15,-47";
+
+
+    var dataLoader = null;
+    var chartLineData = null;
+
+
+
+    load_data("mapTerror.csv", ChartMapParser.lineParser, ChartMapParser.filter)
+            .then(function(res,err){
+
+                dataLoader = res;
+                beginYear = dataLoader.data.reduce((acc,newElem) => Math.min(acc, newElem.year),Number.MAX_VALUE);
+                endYear = dataLoader.data.reduce((acc,newElem) => Math.max(acc, newElem.year), 0);
+
+                document.querySelector(".yearRangeTable .fromValue").innerHTML = endYear-10;
+                document.querySelector(".yearRangeTable .toValue").innerHTML = endYear;
+
+                init_range_selector(beginYear,endYear);
+
+                var filter = function(x){
+
+                    if(typeof(x) == 'undefined'){
+                        return false;
+                    }
+
+                    var year= parseInt(x.split('#')[1]);
+                    console.log(year);
+
+                    return year >= beginYear && year <= endYear;
+
+                }.bind(this);
+
+                $( "#slider-range" ).slider({
+                    values: [ endYear-10, endYear]
+                });
+
+                return load_data("mapTerror.csv", LineChartParser.lineParser, filter);
+
+            }).then(function(res, err){
+
+
+
+        chartLineData = new ChartLineData(res.data);
+
+        beginYear = endYear-10;
+
+        var companySorted = chartLineData.companyAndDeathSorted(beginYear, endYear);
+        CrashChart.update(beginYear, endYear, chartLineData.getYearAndCrashes(beginYear,endYear));
+        sideMenuManager.updateResult(companySorted);
+
+        var newTitle = "Terrorists Attacks from " + beginYear +" to " + endYear;
+        document.querySelector("h1").innerHTML = newTitle;
+
+        showCrashes(dataLoader.getData(beginYear, endYear));
+
+
+        (function(){
+
+            var lastBeginYear = -1, lastEndYear = -1;
+
+            document.body.onmouseup = function() {
+
+                var values = $( "#slider-range" ).slider( "option", "values" );
+
+                beginYear = values[0];
+                endYear = values[1];
+
+                if(lastBeginYear == beginYear && lastEndYear == endYear){
+                    return;
+                }
+
+                lastBeginYear = beginYear;
+                lastEndYear = endYear;
+
+                $( "#slider-range" ).slider({
+                    values: [beginYear, endYear]
+                });
+
+                document.querySelector(".yearRangeTable .fromValue").innerHTML = beginYear;
+                document.querySelector(".yearRangeTable .toValue").innerHTML = endYear;
+
+                var companySorted = chartLineData.companyAndDeathSorted(beginYear, endYear);
+                CrashChart.update(beginYear, endYear, chartLineData.getYearAndCrashes(beginYear,endYear));
+                sideMenuManager.updateResult(companySorted);
+
+                var newTitle = "Terrorists Attacks from " + beginYear +" to " + endYear;
+                titleAnim(document.querySelector("h1"), newTitle, "#bd5a5f",  1000);
+
+                showCrashes(dataLoader.getData(beginYear, endYear));
+
+            };
+
+
+        })();
+
+
+    });
+
+
+
+
+
+
+</script>
+
+
+
+<h1></h1>
+
+<aside>
+
+    <h2>Select date range</h2>
+    <div id="slider-range"></div>
+    <br/>
+    <table class="yearRangeTable"><tr><td class="fromValue"></td><td class="toValue"></td></tr></table>
+
+    <h2>Death count (Top 10)</h2>
+    <table class="airlines">
+        <tr><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td></tr>
+    </table>
+
+    <h2>Attacks per year</h2>
+    <br/>
+    <br/>
+    <div class="crashChart">
+        <svg></svg>
+    </div>
+
+
+
+</aside>
+
+
+<div class="contentWrapper">
+
+    <!-- HTML -->
+    <div id="chartdiv"></div>
+
+</div>
+
+
+
+<script type="text/javascript">
+
+
+
+    var menuLink = document.querySelectorAll(".airlines tr");
+
+    for(var i = 0; i<menuLink.length; i++){
+
+        (function(){
+
+            var currentLink =  menuLink[i];
+            var airlineTxt = currentLink.querySelector("td").textContent;
+
+            currentLink.addEventListener("click",function(e){
+
+            });
+
+        })();
+
+    }
+
+
+</script>
+
+</body>
+</html>

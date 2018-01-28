@@ -1,0 +1,166 @@
+
+/*******************************************************************************************************************************************
+File Name        :   CSS file for ata visualisation project @ EPFL.  
+Supervised By    : 	 Dr. Benzi Kirell
+Project Title    : 	 Cool Patent
+Git Hub Repo     : 	 https://github.com/bilguunchinzorigEPFL/dataVisualization
+MapData set From : 	 http://www.naturalearthdata.com/downloads/50m-cultural-vectors/
+Patent Data set  :   http://www.nber.org/patents/
+**********************************************************************************************************************************************/
+
+/* This deefiens the  css style for the body pf the visualisation*/
+.body{
+    margin: 0;
+    padding: 12px;
+   /*background-color: #efefef;*/
+    background: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: orange;
+    overflow: hidden;
+}
+
+.styled-select {
+    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+    height: 29px;
+    overflow: hidden;
+    width: 240px;
+    background-color: #ddd;
+ }
+
+ .styled-select select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px; /* If you add too much padding here, the options won't show in IE */
+    width: 268px;
+    background-color: #167F92;
+ }
+
+ .semi-square {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 5px;
+ }
+
+.year.label {
+    font-family: 'Open Sans Condensed', sans-serif; font-size: 100px;
+    fill: #aaa;
+}
+
+.category.label {
+    font-family: 'Open Sans Condensed', sans-serif; font-size: 40px;
+    fill: #aaa;
+}
+
+.legendTitle {
+    font-size: 1rem;
+    fill: #aaa;
+    font-weight: 300;
+}
+h1 { color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 30px; 
+    font-weight: 700; line-height: 64px; 
+    margin: 0 0 0; 
+    padding: 0px 30px; 
+    text-align: center; text-transform: uppercase; }
+
+.slidecontainer {
+    width: 70%;
+    display: inline-block;
+    font-family: 'Open Sans Condensed', sans-serif; font-size: 20px;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #167F92;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #167F92;
+    cursor: pointer;
+  }
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 4px;
+    background: #fff;
+    border: 0px;
+    pointer-events: none;
+  }
+
+/* This deefiens the  css style for the title "the cool patent". It is referenced in the index.html file */
+.title {
+    float: left;
+    font-size: 300%;
+    margin-left:  10px;
+    align-content: center;
+    font-family:"Helvetica Neue" ;
+    font-weight: bolder;
+    color: olivedrab;
+}
+
+/* This defines the  css style for the logo2  "Data Viz Project". It is referenced in the index.html file */
+.logo_2 {
+    background-color: ora;
+    stroke: #333333;
+    fill: red;
+}
+
+/* This defines the  css style for the logo2  "EPFL". It is referenced in the index.html file */
+.logo_1{
+    background-color: #330000;
+    margin-left:  10px;
+    stroke: #330000;
+    fill: #330000;
+}
+
+/* This defines the  css style for the canvas svg . It is referenced in the geo.js file as class canvas*/
+.canvas{
+    padding-top: 20px;
+    margin-left:   0px;
+    margin-right: 0px;
+    margin-bottom:0px;
+    margin-top: 0px;
+    padding-top: 10px;
+    /*outline-style: dashed;
+    outline-color: orange;
+    outline-width: 5px;*/
+}
+
+/* This defines the  css style for the country data set . It is referenced in the geo.js file  as  class country*/
+.country {
+   background:  steelblue;
+   stroke:#333333;
+   stroke-width :1.5px;
+   margin-right: 0px;
+   margin-bottom:0px;
+   margin-top: 0px;
+   padding-top: 0px;
+}
