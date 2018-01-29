@@ -5,7 +5,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Latex
-slides/*.pdf
+/slides/*.pdf
 *.aux
 *.fls
 *.toc
@@ -24,5 +24,8 @@ slides/*.pdf
 *.run.xml
 *.snm
 
-credentials.ini
-data/
+/credentials.ini
+
+/data/family_accounts.csv
+/data/fma_tracks_with_genre.csv
+/data/iris.csv
