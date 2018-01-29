@@ -27,7 +27,7 @@ Below is the material you'll find in that repository:
 1. [Introduction][d01]: conda & Anaconda, Python, Jupyter, git, scientific Python
 1. Network properties: [twitter demo][d02], [numpy demo][d03], [assignment][a01],
    [solution][a01s1], [student solution][a01s2], [feedback][a01fb]
-1. Network models: [networkx demo][d04], [matplotlib demo][d05], [assignment][a02], solution
+1. Network models: [networkx demo][d04], [matplotlib demo][d05], [assignment][a02], [solution][a02s]
 1. Spectral graph theory: [web API and pandas demo][d06], [assignment][a03], [solution][a03s], [feedback][a03fb]
 1. [Data exploration and visualization demo][d07]
 1. Graph signal processing: [demo][d08], [assignment][a04], solution
@@ -55,6 +55,7 @@ themselves.
 [a01s2]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/assignments/01_solution_florian.ipynb
 [a01fb]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/assignments/01_feedback.ipynb
 [a02]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/assignments/02_network_models.ipynb
+[a02s]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/assignments/02_solution.ipynb
 [a03]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/assignments/03_spectral_graph_theory.ipynb
 [a03s]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/assignments/03_solution.ipynb
 [a03fb]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/assignments/03_feedback.ipynb
