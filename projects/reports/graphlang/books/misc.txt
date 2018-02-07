@@ -1,0 +1,10 @@
+king-james-bible =>
+- http://www.bibleprotector.com
+- clean: ^[A-Za-z]{2} \d+:\d+\s
+
+bible-french-ostervald-1966
+- https://unbound.biola.edu/index.cfm?method=downloads.showDownloadMain
+- clean: ^\d{2}[A-Z]\s(\d+\s+)+
+
+quran shakir =>
+- http://tanzil.net/trans/
