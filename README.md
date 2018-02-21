@@ -210,7 +210,7 @@ to install it and create an environment for the course.
 1. Open a terminal. Windows: open the Anaconda Prompt from the Start menu.
 1. Install git with `conda install git`.
 1. Download this repository by running
-   `git clone https://github.com/mdeff/ntds_2017`.
+   `git clone --recurse-submodules https://github.com/mdeff/ntds_2017`.
 1. Create an environment with the packages required for the course with
    `conda env create -f ntds_2017/environment.yml`.
 
