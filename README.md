@@ -178,7 +178,7 @@ work.
 [17r]: projects/reports/stackoverflow_survey
 [18r]: projects/reports/speech_recognition
 [19r]: projects/reports/football_transfers
-[20r]: projects/reports/titanic
+[20r]: https://github.com/zifeo/Titanic
 [21r]: projects/reports/jam
 [22r]: projects/reports/stackoverflow_network
 [23r]: projects/reports/course_suggester
