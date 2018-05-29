@@ -23,7 +23,7 @@ following topics:
 
 Below is the material you'll find in that repository:
 1. [Practical informations][practical_info]
-1. [Installation instructions](#installation)
+1. [Installation instructions](#usage)
 1. [Introduction][d01]: conda & Anaconda, Python, Jupyter, git, scientific Python
 1. Network properties: [twitter demo][d02], [numpy demo][d03], [assignment][a01],
    [solution][a01s1], [student solution][a01s2], [feedback][a01fb]
@@ -37,7 +37,7 @@ As a Data Science course, the above activities are realized on real networks,
 e.g. a social network from Twitter, that students have to collect and clean
 themselves.
 
-[practical_info]: https://github.com/mdeff/ntds_2017/raw/outputs/slides/ntds_labs.pdf
+[practical_info]: https://github.com/mdeff/ntds_2017/blob/outputs/slides/ntds_labs.pdf
 [projects]: https://github.com/mdeff/ntds_2017/raw/outputs/slides/ntds_projects.pdf
 [conclusion]: https://github.com/mdeff/ntds_2017/raw/outputs/slides/ntds_conclusion.pdf
 
