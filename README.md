@@ -9,8 +9,8 @@
 This repository contains the material for the labs associated with the EPFL
 master course [EE-558 A Network Tour of Data Science][epfl] ([moodle]), taught
 in autumn 2017. Compared to the [2016 edition], the course has been refocused
-on graph and network sciences. The course material revolves around the
-following topics:
+on graph and network sciences. It is further developed in the [2018 edition].
+The course material revolves around the following topics:
 
 1. [Network Science](https://en.wikipedia.org/wiki/Network_science),
 1. [Spectral Graph Theory](https://en.wikipedia.org/wiki/Spectral_graph_theory),
@@ -20,6 +20,7 @@ following topics:
 [epfl]: http://edu.epfl.ch/coursebook/en/a-network-tour-of-data-science-EE-558
 [moodle]: http://moodle.epfl.ch/course/view.php?id=15299
 [2016 edition]: https://github.com/mdeff/ntds_2016
+[2018 edition]: https://github.com/mdeff/ntds_2018
 
 Below is the material you'll find in that repository:
 1. [Practical informations][practical_info]
