@@ -6,9 +6,9 @@
 [binder_lab]: https://mybinder.org/v2/gh/mdeff/ntds_2017/outputs?urlpath=lab
 [binder_notebook]: https://mybinder.org/v2/gh/mdeff/ntds_2017/outputs?urlpath=tree
 
-This repository contains the material for the labs associated with the EPFL
+This repository contains the material for the practical work associated with the EPFL
 master course [EE-558 A Network Tour of Data Science][epfl] ([moodle]), taught
-in autumn 2017. Compared to the [2016 edition], the course has been refocused
+in fall 2017. Compared to the [2016 edition], the course has been refocused
 on graph and network sciences. It is further developed in the [2018 edition].
 The course material revolves around the following topics:
 
@@ -22,24 +22,27 @@ The course material revolves around the following topics:
 [2016 edition]: https://github.com/mdeff/ntds_2016
 [2018 edition]: https://github.com/mdeff/ntds_2018
 
-Below is the material you'll find in that repository:
+Theoretical knowledge is taught during lectures.
+Practical knowledge is taught through [tutorials](#tutorials).
+Both are practiced and evaluated through [four assignments](#assignments) and a [semester project](#projects).
+
+## Tutorials
+
+Below is the teaching material you'll find in this repository.
+
 1. [Practical informations][practical_info]
-1. [Installation instructions](#usage)
+1. [Installation instructions](#installation)
 1. [Introduction][d01]: conda & Anaconda, Python, Jupyter, git, scientific Python
-1. Network properties: [twitter demo][d02], [numpy demo][d03], [assignment][a01],
-   [solution][a01s1], [student solution][a01s2], [feedback][a01fb]
-1. Network models: [networkx demo][d04], [matplotlib demo][d05], [assignment][a02], [solution][a02s]
-1. Spectral graph theory: [web API and pandas demo][d06], [assignment][a03], [solution][a03s], [feedback][a03fb]
-1. [Data exploration and visualization demo][d07]
-1. Graph signal processing: [demo][d08], [assignment][a04], [solution][a04s], [feedback][a04fb]
+1. [Data acquisition from Twitter][d02]
+1. [Numerical computing with numpy][d03]
+1. [Network models and properties with networkx][d04]
+1. [Plotting with matplotlib][d05]
+1. [Web APIs and data analysis with pandas][d06]
+1. [Data exploration and visualization][d07]
+1. [Graph signal processing with the PyGSP][d08]
 1. [Concluding remarks][conclusion]
 
-As a Data Science course, the above activities are realized on real networks,
-e.g. a social network from Twitter, that students have to collect and clean
-themselves.
-
 [practical_info]: https://github.com/mdeff/ntds_2017/blob/outputs/slides/ntds_labs.pdf
-[projects]: https://github.com/mdeff/ntds_2017/raw/outputs/slides/ntds_projects.pdf
 [conclusion]: https://github.com/mdeff/ntds_2017/raw/outputs/slides/ntds_conclusion.pdf
 
 [d01]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/01_introduction.ipynb
@@ -50,6 +53,16 @@ themselves.
 [d06]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/06_webapi_pandas.ipynb
 [d07]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/07_data_exploration_and_visualisation.ipynb
 [d08]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/08_pygsp.ipynb
+
+## Assignments
+
+The following assignments were designed to evaluate the theoretical understanding of students through practice.
+As a Data Science course, those activities are realized on real data and networks.
+
+1. Network properties: [assignment][a01], [solution][a01s1], [student solution][a01s2], [feedback][a01fb]
+1. Network models: [assignment][a02], [solution][a02s]
+1. Spectral graph theory: [assignment][a03], [solution][a03s], [feedback][a03fb]
+1. Graph signal processing: [assignment][a04], [solution][a04s], [feedback][a04fb]
 
 [a01]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/assignments/01_network_properties.ipynb
 [a01s1]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/assignments/01_solution_ersi.ipynb
@@ -66,9 +79,12 @@ themselves.
 
 ## Projects
 
-Part of the course is evaluated by a project (see the [description][projects]),
-proposed and carried out by groups of three to four students. Below is their
-work.
+Part of the course is evaluated by an open-ended project (see the [description][projects]),
+proposed and carried out by groups of three to four students.
+
+[projects]: https://github.com/mdeff/ntds_2017/raw/outputs/slides/ntds_projects.pdf
+
+Below is their work.
 
 * [[proposal][01p], [analysis][01r], [slides][01s]] American Basketball Players
 * [[proposal][02p], [analysis][02r], [slides][02s]] Graph-based Nutrition Guide
@@ -190,7 +206,7 @@ work.
 [28r]: projects/reports/instagram_community
 [29r]: projects/reports/lastfm_recommendation
 
-## Usage
+## Installation
 
 Click the [binder badge][binder_lab] to play with the notebooks from your
 browser without installing anything.
