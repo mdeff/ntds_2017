@@ -15,16 +15,17 @@ The course material revolves around the following topics:
 1. [Network Science](https://en.wikipedia.org/wiki/Network_science),
 1. [Spectral Graph Theory](https://en.wikipedia.org/wiki/Spectral_graph_theory),
 1. [Graph Signal Processing](https://arxiv.org/abs/1211.0053),
+1. [Data Science](https://en.wikipedia.org/wiki/Data_science),
 1. [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning).
+
+Theoretical knowledge is taught during lectures.
+Practical knowledge is taught through [tutorials](#tutorials).
+Both are practiced and evaluated through [four assignments](#assignments) and a [semester project](#projects).
 
 [epfl]: http://edu.epfl.ch/coursebook/en/a-network-tour-of-data-science-EE-558
 [moodle]: http://moodle.epfl.ch/course/view.php?id=15299
 [2016 edition]: https://github.com/mdeff/ntds_2016
 [2018 edition]: https://github.com/mdeff/ntds_2018
-
-Theoretical knowledge is taught during lectures.
-Practical knowledge is taught through [tutorials](#tutorials).
-Both are practiced and evaluated through [four assignments](#assignments) and a [semester project](#projects).
 
 ## Tutorials
 
