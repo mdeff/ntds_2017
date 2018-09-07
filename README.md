@@ -247,3 +247,17 @@ Every time you want to work, do the following:
 [miniconda]: https://conda.io/miniconda.html
 [conda]: https://conda.io
 [conda-forge]: https://conda-forge.org
+
+## Team
+
+* Instructors:
+[Pierre Vandergheynst](https://people.epfl.ch/pierre.vandergheynst),
+[Pascal Frossard](https://people.epfl.ch/pascal.frossard).
+* Assistants:
+[Michaël Defferrard](http://deff.ch),
+[Hermina Petric Maretic](https://people.epfl.ch/hermina.petricmaretic),
+[Effrosyni Simou](https://people.epfl.ch/effrosyni.simou).
+
+## License
+
+The content is released under the terms of the [MIT License](LICENSE.txt).
