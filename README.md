@@ -258,6 +258,11 @@ Every time you want to work, do the following:
 [Michaël Defferrard](http://deff.ch),
 [Hermina Petric Maretic](https://people.epfl.ch/hermina.petricmaretic),
 [Effrosyni Simou](https://people.epfl.ch/effrosyni.simou).
+* Invited lecturers:
+[Igor Perisic](https://www.linkedin.com/in/igorperisic),
+[Kirell Benzi](https://www.kirellbenzi.com),
+[Dorina Thanou](https://people.epfl.ch/dorina.thanou),
+[Michaël Defferrard](http://deff.ch).
 
 ## License
 
