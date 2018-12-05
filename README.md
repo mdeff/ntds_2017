@@ -21,17 +21,25 @@ The course material revolves around the following topics:
 Theoretical knowledge is taught during lectures.
 Practical knowledge is taught through [tutorials](#tutorials).
 Both are practiced and evaluated through [four assignments](#assignments) and a [semester project](#projects).
+Below are slides about the organization of the course.
+
+1. [Practical information][practical_info]
+1. [Projects][projects]
+1. [Concluding remarks][conclusion]
 
 [epfl]: http://edu.epfl.ch/coursebook/en/a-network-tour-of-data-science-EE-558
 [moodle]: http://moodle.epfl.ch/course/view.php?id=15299
 [2016 edition]: https://github.com/mdeff/ntds_2016
 [2018 edition]: https://github.com/mdeff/ntds_2018
 
+[practical_info]: https://github.com/mdeff/ntds_2017/blob/outputs/slides/ntds_labs.pdf
+[projects]: https://github.com/mdeff/ntds_2017/blob/outputs/slides/ntds_projects.pdf
+[conclusion]: https://github.com/mdeff/ntds_2017/blob/outputs/slides/ntds_conclusion.pdf
+
 ## Tutorials
 
 Below is the teaching material you'll find in this repository.
 
-1. [Practical informations][practical_info]
 1. [Installation instructions](#installation)
 1. [Introduction][d01]: conda & Anaconda, Python, Jupyter, git, scientific Python
 1. [Data acquisition from Twitter][d02]
@@ -41,10 +49,6 @@ Below is the teaching material you'll find in this repository.
 1. [Web APIs and data analysis with pandas][d06]
 1. [Data exploration and visualization][d07]
 1. [Graph signal processing with the PyGSP][d08]
-1. [Concluding remarks][conclusion]
-
-[practical_info]: https://github.com/mdeff/ntds_2017/blob/outputs/slides/ntds_labs.pdf
-[conclusion]: https://github.com/mdeff/ntds_2017/raw/outputs/slides/ntds_conclusion.pdf
 
 [d01]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/01_introduction.ipynb
 [d02]: https://nbviewer.jupyter.org/github/mdeff/ntds_2017/blob/outputs/demos/02_data_acquisition_twitter.ipynb
@@ -82,8 +86,6 @@ As a Data Science course, those activities are realized on real data and network
 
 Part of the course is evaluated by an open-ended project (see the [description][projects]),
 proposed and carried out by groups of three to four students.
-
-[projects]: https://github.com/mdeff/ntds_2017/raw/outputs/slides/ntds_projects.pdf
 
 Below is their work.
 
