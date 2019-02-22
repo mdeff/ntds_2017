@@ -86,8 +86,7 @@ As a Data Science course, those activities are realized on real data and network
 
 Part of the course is evaluated by an open-ended project (see the [description][projects]),
 proposed and carried out by groups of three to four students.
-
-Below is their work.
+Below is the work of the 107 students enrolled that year.
 
 ![projects](projects/projects.jpg)
 
