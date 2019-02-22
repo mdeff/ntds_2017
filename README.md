@@ -89,6 +89,8 @@ proposed and carried out by groups of three to four students.
 
 Below is their work.
 
+![projects](projects/projects.jpg)
+
 * [[proposal][01p], [analysis][01r], [slides][01s]] American Basketball Players
 * [[proposal][02p], [analysis][02r], [slides][02s]] Graph-based Nutrition Guide
 * [[proposal][03p], [analysis][03r], [slides][03s]] What Impacts the Success of a Movie?
