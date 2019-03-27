@@ -1,6 +1,6 @@
 # A Network Tour of Data Science, edition 2017
 
-[![Binder](https://mybinder.org/badge.svg)][binder_lab]
+[![Binder](https://mybinder.org/badge_logo.svg)][binder_lab]
 &nbsp; (Jupyter [lab][binder_lab] or [notebook][binder_notebook])
 
 [binder_lab]: https://mybinder.org/v2/gh/mdeff/ntds_2017/outputs?urlpath=lab
