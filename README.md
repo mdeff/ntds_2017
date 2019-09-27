@@ -6,10 +6,9 @@
 [binder_lab]: https://mybinder.org/v2/gh/mdeff/ntds_2017/outputs?urlpath=lab
 [binder_notebook]: https://mybinder.org/v2/gh/mdeff/ntds_2017/outputs?urlpath=tree
 
-This repository contains the material for the practical work associated with the EPFL
-master course [EE-558 A Network Tour of Data Science][epfl] ([moodle]), taught
-in fall 2017. Compared to the [2016 edition], the course has been refocused
-on graph and network sciences. It is further developed in the [2018 edition].
+This repository contains the material for the practical work associated with the EPFL master course [EE-558 A Network Tour of Data Science][epfl] ([moodle]), taught in fall 2017.
+Compared to the [2016 edition], the course has been refocused on graph and network sciences.
+It is further developed in the [2018] and [2019] editions.
 The course material revolves around the following topics:
 
 1. [Network Science](https://en.wikipedia.org/wiki/Network_science),
@@ -30,7 +29,8 @@ Below are slides about the organization of the course.
 [epfl]: http://edu.epfl.ch/coursebook/en/a-network-tour-of-data-science-EE-558
 [moodle]: http://moodle.epfl.ch/course/view.php?id=15299
 [2016 edition]: https://github.com/mdeff/ntds_2016
-[2018 edition]: https://github.com/mdeff/ntds_2018
+[2018]: https://github.com/mdeff/ntds_2018
+[2019]: https://github.com/mdeff/ntds_2019
 
 [practical_info]: https://github.com/mdeff/ntds_2017/blob/outputs/slides/ntds_labs.pdf
 [projects]: https://github.com/mdeff/ntds_2017/blob/outputs/slides/ntds_projects.pdf
